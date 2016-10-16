@@ -14,7 +14,7 @@ window.dyngaugeID = 0;
             value: 0,
             min_value: 0,
             max_value: 0,
-            level_colors: ['#ff0000', '#ffa500','#ffff00', '#00ff00'],
+            level_colors: ['#f45b5b', '#f9c802', '#a9d70b', '#55BF3B'],
         };
 
         function createGauge() {
@@ -114,7 +114,7 @@ window.dyngaugeID = 0;
                 name: "level_colors",
                 display_name: "Level colors",
                 type: "calculated",
-                default_value: "return ['#ff0000', '#ffa500','#ffff00', '#00ff00']"
+                default_value: "return ['#f45b5b', '#f9c802', '#a9d70b', '#55BF3B']"
             }
         ],
         newInstance: function (settings, newInstanceCallback) {
