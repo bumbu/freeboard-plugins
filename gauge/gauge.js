@@ -2,7 +2,7 @@ window.dyngaugeID = 0;
 (function() {
     var dynamicGaugeWidget = function (settings) {
         var self = this;
-        thisDynGaugeID = "dyngauge-" + window.dyngaugeID++;
+        var thisDynGaugeID = "dyngauge-" + window.dyngaugeID++;
         var titleElement = $('<h2 class="section-title"></h2>');
         var gaugeElement = $('<div id="' + thisDynGaugeID + '"></div>');
 
